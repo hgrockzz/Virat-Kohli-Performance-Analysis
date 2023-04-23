@@ -2,7 +2,7 @@ import pandas as pd
 import pickle
 import streamlit as st
 from PIL import Image
-imagg = Image.open('runs_score_byVK')
+imagg = Image.open('pages/runs_score_byVK')
 st.title('Runs per Innings')
 if st.button('Display the Graph'):
         st.image(imagg)

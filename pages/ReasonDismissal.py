@@ -2,7 +2,7 @@ import pandas as pd
 import pickle
 import streamlit as st
 from PIL import Image
-imagg = Image.open('Reason_Dismissal_VK.png')
+imagg = Image.open('pages/Reason_Dismissal_VK.png')
 st.title('Reason Dismissal')
 if st.button('Display the Graph'):
         st.image(imagg)

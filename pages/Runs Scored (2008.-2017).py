@@ -2,8 +2,8 @@ import pandas as pd
 import pickle
 import streamlit as st
 from PIL import Image
-imagg = Image.open('runs_score_byVK.png')
-st.title('Runs Scored by Virat Kohli from 2008-2017')
+imagg = Image.open('pages/runs_score_byVK.png')
+st.title('Runs scored (2008-2017)')
 if st.button('Display the Graph'):
         st.image(imagg)
         st.text('Conclusion')

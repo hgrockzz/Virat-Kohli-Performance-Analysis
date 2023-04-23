@@ -2,7 +2,7 @@ import pandas as pd
 import pickle
 import streamlit as st
 from PIL import Image
-imagg = Image.open('matches_different_position.png')
+imagg = Image.open('pages/matches_different_position.png')
 st.title('Batting Order')
 if st.button('Display the Graph'):
         st.image(imagg)

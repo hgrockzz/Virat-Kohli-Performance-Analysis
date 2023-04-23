@@ -2,7 +2,7 @@ import pandas as pd
 import pickle
 import streamlit as st
 from PIL import Image
-imagg = Image.open('relationbetween_run_fours.png')
+imagg = Image.open('pages/relationbetween_run_fours.png')
 st.title('Runs,Fours and Sixes')
 if st.button('Display the Graph'):
         st.image(imagg)
